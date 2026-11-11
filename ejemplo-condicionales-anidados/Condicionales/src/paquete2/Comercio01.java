@@ -52,7 +52,7 @@ public class Comercio01 {
         // calcular la productividad
         productividad = numeroProductos * coeficiente;
 
-        adicionalSeguro = (sueldoBasico * 8) / 100;
+        adicionalSeguro = (sueldoBasico * porcentajeSeguro) / 100;
 
         if (productividad <= 30) {
             bono = 25; // $25
@@ -78,7 +78,7 @@ public class Comercio01 {
                     sueldoFinal);
 
         } else {
-            if (productividad >= 31 && productividad < 80) {
+            if (productividad > 30 && productividad < 80) {
                 bono = 50;
                 sueldoFinal = adicionalSeguro + bono + sueldoBasico;
                 System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
