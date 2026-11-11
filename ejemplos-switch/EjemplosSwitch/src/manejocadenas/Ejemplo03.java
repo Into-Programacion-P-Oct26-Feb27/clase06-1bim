@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class EjemploCadenas02 {
+public class Ejemplo03 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         // 

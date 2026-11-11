@@ -10,14 +10,14 @@ package manejocadenas;
  * @author reroes
  */
 public class Ejemplo02 {
-    
     public static void main(String[] args) {
-        String pais;
-        
-        pais = "Ecuador";
-        //      0123456
-        char letra = pais.charAt(0);
-        System.out.printf("%s\n", letra);
+        String ciudad = "loJa";
+        ciudad = ciudad.toUpperCase();
+        System.out.printf("%s\n", ciudad.toLowerCase());
+        // System.out.printf("%s\n", ciudad.toUpperCase());
+        System.out.printf("%s\n", ciudad);
+        // toLowerCase es un método
+        // toUpperCase es un método
         
     }
 }
